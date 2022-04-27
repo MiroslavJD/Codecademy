@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chess Site</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <body>
+       <h1>Chess Site</h1>
+    <nav id="navbar">
+      <ul>    
+     <li><a href="/home.html">Home</a></li>
+     <li><a href="/play.html">News</a></li>
+     <li><a href="/Puzzles.html">Puzzles</a></li>
+     <li><a href="/Learn.html">Learn</a></li>
+     <li><a href="/Social.html">Social</a></li>
+      </ul>
+   </nav>
+
+    <div class='intro'>
+    <h2>Hello Everybody</h2>
+    <img src="https://i.postimg.cc/h4HLGsyx/istockphoto-1256422923-170667a.jpgg">
+    <p> This is the best chest site in the world. Let's go. Playing chess is educational and fun. </p>
+    </div>
+<br><br>
+    <div class='main'>
+    <ul>
+      <li>Classic</li>
+      <li>Rapid</li>
+      <li>Blitz</li>
+      <li>Bullet</li>
+    </ul>
+    <img src="https://i.postimg.cc/JhxgV0LT/chess.jpgg">
+    <br><br>
+    <p>The tournaments are free and can play where you want.</p>
+    </div>
+<br><br>
+     <table>
+     <tr>
+       <th>Classic</th>
+       <th>Rapid</th>    
+       <th>Blitz</th>
+       <th>Bullet</th>
+      </tr>
+
+      <tr>
+        <td rowspan="2">20-60 min</td>
+        <td>15 min</td>
+        <td>3 min</td>
+        <td>1 min</td>
+      </tr>
+      <tr>
+        <td>15 min + 2sec. incr.</td>
+        <td>5 min</td>
+        <td>1 min + 1sec. incr.</td>
+      </tr>
+     </table>
+<br><br>
+  <button btn="1">Play</button>
+  <button btn="2">Quit</button>
+
+  </body>
+  <footer>
+  </footer>
+</html>
